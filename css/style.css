@@ -3,50 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container1500 {
-    max-width: 1000px;
-    
-    margin: 0 auto;
-    background-color:aquamarine;
+/*TAGS*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+
+}
+ul li{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 20px;
+}
+header{
+    color: white;
 }
 
+header img{
+    width: 150px;
+}
+/*CLASS*/
+.container1000 {
+    max-width: 1000px;   
+    margin: 0 auto;
+}
+.content{
+    margin: 5px;
+}
 .row{
     display: flex;
-    gap: 15px;
     flex-wrap: wrap;
 }
 .col33{
-    background-color:blue;
-    width: 32%;
-    height: 450px;
+    width: calc(100%/3);
 }
 
-.bg-img1{
-    background-image: url('../img/1.webp');
-    background-size: cover;
+/*BG-COLOR*/
+.bgcolor-orange{
+    background-color: #D45A05;
 }
-.bg-img2{
-    background-image: url('../img/2.webp');
-    background-size: cover;
+/*PADDING*/
+.padding20-top-bot{
+    padding: 20px 0;
 }
-.bg-img3{
-    background-image: url('../img/3.webp');
-    background-size: cover;
-}
-.bg-img4{
-    background-image: url('../img/4.webp');
-    background-size: cover;
-}
-.bg-img5{
-    background-image: url('../img/5.webp');
-    background-size: cover;
-}
-.bg-img6{
-    background-image: url('../img/6.webp');
-    background-size: cover;
+.margin30-top-bot{
+    margin: 30px auto;
 }
 
-
-.padding30{
-    padding: 30px;
+/*ALIGN*/
+.align-items-center{
+    align-items: center;
+}
+.align-right{
+    text-align: right;
 }
