@@ -7,6 +7,17 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+}
+strong{
+    display: block;
+    padding: 10px 0;
+    
+}
 main img{
     width: 100%;
 }
@@ -26,6 +37,17 @@ header{
 header img{
     width: 150px;
 }
+
+/*ID*/
+#social a{
+    color:black;
+    background-color: white;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+
 /*CLASS*/
 .container1000 {
     max-width: 1000px;   
@@ -41,15 +63,48 @@ header img{
 .col33{
     width: calc(100%/3);
 }
+.col50{
+    width: 50%;
+}
+.marca{
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+}
+.dress-name{
+    font-weight: 600;
+}
+
+.prezzo-scontato{
+    color: red;
+    font-size: 15px;
+}
+.prezzo{
+    color: black;
+}
+
 
 /*BG-COLOR*/
 .bgcolor-orange{
     background-color: #D45A05;
 }
+
+.bgcolor-black{
+    background-color: black;
+}
+
 /*PADDING*/
 .padding20-top-bot{
     padding: 20px 0;
 }
+.padding30-top-bot{
+    padding: 30px 0;
+}
+.padding-bot30{
+    padding-bottom: 30px;
+}
+
+/*MARGIN*/
 .margin30-top-bot{
     margin: 30px auto;
 }
@@ -61,3 +116,9 @@ header img{
 .align-right{
     text-align: right;
 }
+
+/*color*/
+.color-white{
+    color: white;
+}
+
