@@ -82,6 +82,45 @@ header img{
 .prezzo{
     color: black;
 }
+.img-space{
+    position: relative;
+}
+.labels{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    z-index: 2;
+}
+.img-space p{
+    margin-right: 5px;
+    padding:7px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+.hover-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+.img-space:hover .hover-img{
+    display: block;
+    z-index: 1;
+}
+.heart{
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    padding: 0 10px;
+    font-size: 35px;
+    z-index: 2;
+}
+.heart:hover{
+    color: red;
+}
 
 
 /*BG-COLOR*/
@@ -91,6 +130,12 @@ header img{
 
 .bgcolor-black{
     background-color: black;
+}
+.bgcolor-red{
+    background-color: red;
+}
+.bgcolor-green{
+    background-color: rgb(13, 206, 13);
 }
 
 /*PADDING*/
